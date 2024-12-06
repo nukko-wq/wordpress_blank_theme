@@ -1,5 +1,22 @@
-/* CSS */
+:root {
+  --color-background: #fff;
+  --color-link: #3b82f6;
+  --color-link-visited: #86198f;
+  --color-link-hover: #1d4ed8;
+}
 
 body {
   font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+a {
+  color: var(--color-link);
+}
+
+a:visited {
+  color: var(--color-link-visited);
+}
+
+a:hover {
+  color: var(--color-link-hover);
 }
